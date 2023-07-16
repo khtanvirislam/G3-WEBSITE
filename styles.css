@@ -45,7 +45,7 @@ nav>ul{
 nav li{
     list-style: none;
     margin-right: 30px;
-    font-weight: 500px;
+    font-weight: 600px;
     font-size: 1rem;
 }
 
@@ -116,17 +116,13 @@ nav a{
 }
 
 
-/* responsive for small devices */
-@media screen and (max-width:576px){
-    header{
-        padding: 20px;
-    }
-    nav{
-        flex-direction: column;
-    }
-}
+
+
+
+
 
 /* responsive for medium devices */
+
 @media screen and (min-width:577px) and (max-width:990px){
     header{
         padding: 50px;
@@ -134,4 +130,36 @@ nav a{
     nav{
         flex-direction: column;
     }
+    .team-container{
+        flex-direction: column-reverse;
+        margin: 100px 130px;
+        padding: 20px 30px;
+    }
+    
+    .team-img{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
+/* responsive for small devices */
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
+    .team-container{
+        flex-direction: column;
+        margin: 50px 70px;
+        padding: 10px 15px;
+    }
+    .team-img{
+        grid-template-columns: 1fr;
+    }
+
 }
