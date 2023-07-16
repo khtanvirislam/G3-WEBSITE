@@ -142,7 +142,6 @@ nav a{
 }
 
 .facts-card-container .card-title{
-    padding: ;
     font-size: 1.9rem;
     font-weight: 700;
     color: black;
@@ -161,13 +160,18 @@ nav a{
     header{
         padding: 50px;
     }
-    nav{
+    nav, .facts-card-container{
         flex-direction: column;
     }
-    .team-container{
+    .team-container, .facts-card-container{
         flex-direction: column-reverse;
         margin: 100px 130px;
         padding: 20px 30px;
+    }
+
+    .facts-card-container{
+        gap: 20px;
+        flex-direction: column;
     }
     
     .team-img{
@@ -183,17 +187,20 @@ nav a{
         padding: 20px;
     }
 
-    nav{
+    nav, .facts-card-container{
         flex-direction: column;
     }
 
-    .team-container{
+    .team-container, .facts-card-container{
         flex-direction: column;
         margin: 50px 70px;
         padding: 10px 15px;
     }
     .team-img{
         grid-template-columns: 1fr;
+    }
+    .facts-card-container{
+        gap: 20px;
     }
 
 }
