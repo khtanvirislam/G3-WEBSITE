@@ -6,3 +6,35 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header styles */
+
+header{
+    background-color: rgba(250, 150, 10, 0.20);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    font-size: 2.8ram;
+}
+
+nav>ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
