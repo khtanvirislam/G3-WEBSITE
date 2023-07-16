@@ -19,6 +19,12 @@
     cursor: pointer;
 }
 
+.section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:rgb(32, 32, 32);
+}
+
 /* header styles */
 
 header{
@@ -32,11 +38,6 @@ nav{
     align-items: center;
 }
 
-.nav-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color:rgb(32, 32, 32);
-}
 
 nav>ul{
     display: flex;
@@ -75,6 +76,8 @@ nav a{
 }
 
 /* main styles */
+
+/* team section styles */
 .team-container{
     display: flex;
     align-items: center;
@@ -115,10 +118,41 @@ nav a{
     font-weight: 800;
 }
 
+/* facts styles */
 
+.facts-card-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
+}
 
+.facts-card-container .card{
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 40px 30px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(100, 99, 99);
+    box-shadow: 4px 4px 4px rgb(192, 192, 192);
+   
 
+}
+
+.facts-card-container .card-title{
+    padding: ;
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: black;
+    margin: 5px;
+
+}
+
+.facts-card-container .card-description{
+    margin: 10px 10px;
+}
 
 
 /* responsive for medium devices */
