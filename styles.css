@@ -7,6 +7,18 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary{
+    border-radius: 8px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    margin: ;
+    font-weight: 700px;
+    cursor: pointer;
+}
+
 /* header styles */
 
 header{
@@ -40,4 +52,45 @@ nav li{
 nav a{
     text-decoration: none;
     color: black;
+}
+
+/* banner styles */
+
+.banner-container{
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title{
+    font-size: 2.5rem;
+}
+.banner-description{
+   color: gray;
+}
+
+.banner-img{
+    width: 100%;
+   margin-top: 20px;
+}
+
+
+/* responsive for small devices */
+@media screen and (max-width:576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* responsive for medium devices */
+@media screen and (min-width:577px) and (max-width:990px){
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
 }
